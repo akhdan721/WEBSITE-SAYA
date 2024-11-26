@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #333;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: #555;
+}
+
+/* Hero Section */
+.hero {
+  background: url("biru.JPEG") no-repeat center center/cover;
+  color: #333;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.hero button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background: #0056b3;
+}
+
+/* Section Styles */
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about p {
+  text-align: center;
+}
+
+.about {
+  margin: 0px;
+}
+
+.service-items {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.image {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
