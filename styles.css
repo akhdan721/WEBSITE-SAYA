@@ -24,6 +24,10 @@ header {
   font-weight: bold;
 }
 
+h1 {
+  color: #fff;
+}
+
 .nav-links {
   list-style: none;
   padding: 0;
