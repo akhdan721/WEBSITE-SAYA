@@ -48,7 +48,7 @@ h1 {
 
 /* Hero Section */
 .hero {
-  background: url("biru.JPEG") no-repeat center center/cover;
+  background: url("biru.jpeg") no-repeat center center/cover;
   color: #333;
   height: 60vh;
   display: flex;
